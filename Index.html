@@ -7,27 +7,32 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <div id="container">
-        <div class="converter">
-            <div class="divfrom">
-                <label for="f">FROM</label>
-                <select name="from" id="f">
-                    <option value=""></option>
-                </select>
-                <img src="" alt="">
-            </div>
-            <div class="divTo">
-                <label for="t">TO</label>
-                <select name="to" id="t">
-                    <option value=""></option>
-                </select>
-                <img src="" alt="">
-            </div>
-        
+    <div class="container">
+        <label for="" class="inpt">Enter amount</label>
+        <div class="inpt"> <input type="text" name="" id="amt"></div>
+        <div class="div-container">
+        <div class="div1">
+            <label for="">FROM</label>
+        <select name="from" id="From" class="dropdown">
+            <option value="USA" selected>USA</option>
+        </select>
+          <img src="" alt="">
         </div>
-          <button class="con">Convert</button>
+        
+        <div class="div2">
+            <label for="">TO</label>
+            <select name="to" id="To" class="dropdown">
+                <option value="IND">IND</option>
+            </select>
+            <img src="" alt="">
+        </div>
+        <div class="cbt"><button class="Cbtn">Convert</button></div>
+        </div>
+
+        <div class="out"></div>
 
     </div>
+    <script  type="module" src="/app.js"></script>
     
 </body>
 </html>
